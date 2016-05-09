@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+h1{
+
+}
+.body{
+	background-color: #BDBDBD;
+}
+.menu{
+	list-style: none;
+	text-align: center;
+	background-color: #0A122A;
+	/*position: fixed;*/
+}
+.menu ul{
+	text-align: right;
+}
+.menu li{
+	display: inline-block;
+	margin: 30px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.menu a:hover{
+	color: red;
+	text-decoration: none;
+}
+.menu h1{
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800px;
+}
+.presentacion{
+	padding-top: 25px;
+}
+.presentacion h1{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800px;
+}
+.presentacion button{
+	border-radius: 10px;
+	background-color: #6E6E6E;
+	color: white;
+	padding: 5px;
+}
+.titulo{
+	list-style: none;
+}
+.titulo li{
+	display: inline;
+	margin: 1px;
+}
+.titulo a{
+	text-decoration: none;
+	color: #6E6E6E;
+}
+.titulo a:hover{
+	color: #1C1C1C;
+	text-decoration: none;
+}
+.titulo h2{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800px;
+	color: #6E6E6E;
+}
+.titulo span{
+	opacity: 0.2;
+	float: right;
+	margin: 3px;
+	margin-top: 25px;
+}
+.galeria img{
+	border: 1px solid #BDBDBD;
+}
+.galeria span{
+	opacity: 0.2; 
+	margin-right: 35px;
+}
+.load{
+	margin: 40px 0;
+}
+.load button{
+	border-radius: 10px;
+	background-color: #6E6E6E;
+	color: white;
+	padding: 5px;
+	margin-left: 500px;
+}
+.seccion{
+	margin: 30px;
+}
+.seccion img{
+	width: 100px;
+}
+.seccion button{
+	border-radius: 10px;
+	background-color: #6E6E6E;
+	color: white;
+	padding: 2px;
+	margin-left: 20px;
+}
+.seccion h3{
+	color: #6E6E6E;
+}
+.footer{
+	background-color: #0A122A;
+}
+.footer a{
+	text-decoration: none;
+	color: #FF0000;
+}
